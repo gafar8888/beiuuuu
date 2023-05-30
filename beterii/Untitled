@@ -1,0 +1,8 @@
+if($text !== "/start"){
+bot('Sendvideo',[
+'chat_id'=>$chat_id,
+'video'=>"$text",
+'caption'=>"• تم تنزيل الفيديو بنجاح ، 📥؛
+~ تابع قناة المطور @cc2cc0 ، 🚸؛",
+]);
+}
